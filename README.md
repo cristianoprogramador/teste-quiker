@@ -35,6 +35,12 @@ Teste Quiker é uma aplicação completa de gerenciamento de posts e comentário
 
 ## Como Inicializar o Backend
 
+* Arquivo ENV: Você precisa colocar o DATABASE_URL="file:./dev.db" e JWT_SECRET e também JWT_EXPIRES_IN
+Exemplo:
+  DATABASE_URL="file:./dev.db"
+  JWT_SECRET="senhasecretadasuaescolha"
+  JWT_EXPIRES_IN=86400s
+
 1. Clone o repositório:
 
    ```bash
