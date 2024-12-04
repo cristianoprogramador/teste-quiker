@@ -8,30 +8,30 @@ Teste Quiker é uma aplicação completa de gerenciamento de posts e comentário
 
 ### Frontend
 
-React: Biblioteca JavaScript para construir interfaces de usuário interativas e reutilizáveis.
-TypeScript: Superset do JavaScript que adiciona tipagem estática, melhorando a robustez e manutenção do código.
-Vite: Ferramenta de build rápida e otimizada para projetos frontend, proporcionando um ambiente de desenvolvimento ágil.
-Tailwind CSS: Framework CSS utilitário para estilização rápida e responsiva.
-React Router DOM: Biblioteca para gerenciamento de rotas no React, facilitando a navegação entre diferentes páginas.
-Axios: Cliente HTTP para realizar requisições ao backend de forma eficiente.
-Nookies: Biblioteca para gerenciamento de cookies no lado do cliente e servidor.
-React Icons: Biblioteca de ícones populares para React, facilitando a inclusão de elementos visuais.
-ESLint: Ferramenta de linting para identificar e corrigir problemas no código.
-PostCSS: Ferramenta para transformar CSS com plugins, utilizada em conjunto com Tailwind CSS.
+* React: Biblioteca JavaScript para construir interfaces de usuário interativas e reutilizáveis.
+* TypeScript: Superset do JavaScript que adiciona tipagem estática, melhorando a robustez e manutenção do código.
+* Vite: Ferramenta de build rápida e otimizada para projetos frontend, proporcionando um ambiente de desenvolvimento ágil.
+* Tailwind CSS: Framework CSS utilitário para estilização rápida e responsiva.
+* React Router DOM: Biblioteca para gerenciamento de rotas no React, facilitando a navegação entre diferentes páginas.
+* Axios: Cliente HTTP para realizar requisições ao backend de forma eficiente.
+* Nookies: Biblioteca para gerenciamento de cookies no lado do cliente e servidor.
+* React Icons: Biblioteca de ícones populares para React, facilitando a inclusão de elementos visuais.
+* ESLint: Ferramenta de linting para identificar e corrigir problemas no código.
+* PostCSS: Ferramenta para transformar CSS com plugins, utilizada em conjunto com Tailwind CSS.
 
 ### Backend
 
-NestJS: Framework progressivo para construção de aplicações Node.js eficientes e escaláveis.
-TypeScript: Superset do JavaScript que adiciona tipagem estática, melhorando a robustez e manutenção do código.
-Prisma: ORM (Object-Relational Mapping) para gerenciamento eficiente do banco de dados com uma abordagem type-safe.
-JWT (JSON Web Tokens): Mecanismo para autenticação e autorização segura.
-Passport: Middleware de autenticação para Node.js, suportando diversas estratégias de autenticação.
-Swagger: Ferramenta para documentação interativa da API, facilitando a visualização e teste dos endpoints.
-ESLint: Ferramenta de linting para identificar e corrigir problemas no código.
-Jest: Framework de testes para garantir a qualidade e confiabilidade do código.
-Prettier: Ferramenta de formatação de código para manter a consistência estilística.
-PostCSS: Ferramenta para transformar CSS com plugins.
-Bcrypt: Biblioteca para hashing de senhas, garantindo segurança na autenticação.
+* NestJS: Framework progressivo para construção de aplicações Node.js eficientes e escaláveis.
+* TypeScript: Superset do JavaScript que adiciona tipagem estática, melhorando a robustez e manutenção do código.
+* Prisma: ORM (Object-Relational Mapping) para gerenciamento eficiente do banco de dados com uma abordagem type-safe.
+* JWT (JSON Web Tokens): Mecanismo para autenticação e autorização segura.
+* Passport: Middleware de autenticação para Node.js, suportando diversas estratégias de autenticação.
+* Swagger: Ferramenta para documentação interativa da API, facilitando a visualização e teste dos endpoints.
+* ESLint: Ferramenta de linting para identificar e corrigir problemas no código.
+* Jest: Framework de testes para garantir a qualidade e confiabilidade do código.
+* Prettier: Ferramenta de formatação de código para manter a consistência estilística.
+* PostCSS: Ferramenta para transformar CSS com plugins.
+* Bcrypt: Biblioteca para hashing de senhas, garantindo segurança na autenticação.
 
 ## Como Inicializar o Backend
 
