@@ -1,99 +1,95 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
-</p>
+# Backend
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## Descrição
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+Este é o backend da aplicação de gerenciamento de posts e comentários. Desenvolvido com NestJS e Prisma, o backend fornece uma API robusta e segura para a criação, atualização, exclusão e gerenciamento de posts e comentários. Ele implementa autenticação JWT, validação de dados, documentação Swagger e testes automatizados para garantir a qualidade e a confiabilidade do sistema.
 
-## Description
+## Tecnologias Utilizadas
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+NestJS: Framework progressivo para construção de aplicações Node.js eficientes e escaláveis.
+TypeScript: Superset do JavaScript que adiciona tipagem estática, melhorando a robustez e a manutenção do código.
+Prisma: ORM (Object-Relational Mapping) para gerenciamento eficiente do banco de dados.
+JWT (JSON Web Tokens): Mecanismo para autenticação e autorização segura.
+Passport: Middleware de autenticação para Node.js.
+Swagger: Ferramenta para documentação interativa da API.
+ESLint: Ferramenta de linting para identificar e corrigir problemas no código.
+Jest: Framework de testes para garantir a qualidade do código.
+Prettier: Ferramenta de formatação de código para manter a consistência estilística.
+PostCSS: Ferramenta para transformar CSS com plugins.
+Bcrypt: Biblioteca para hashing de senhas, garantindo segurança na autenticação.
 
-## Project setup
+## Como Inicializar o Projeto
 
-```bash
-$ npm install
-```
+1. Clone o repositório:
 
-## Compile and run the project
+   ```bash
+   git clone https://github.com/cristianoprogramador/teste-quiker.git
+   ```
 
-```bash
-# development
-$ npm run start
+2. Instale as dependências:
 
-# watch mode
-$ npm run start:dev
+   ```bash
+   cd backend
+   npm install
+   ```
 
-# production mode
-$ npm run start:prod
-```
+3. Caso ainda não tenha feito, inicialize o Prisma no projeto:
 
-## Run tests
+   ```bash
+   npx prisma init
+   ```
 
-```bash
-# unit tests
-$ npm run test
+4. Gerar o Cliente Prisma:
 
-# e2e tests
-$ npm run test:e2e
+   ```bash
+   npx prisma generate
+   ```
 
-# test coverage
-$ npm run test:cov
-```
+5. Execute o projeto:
 
-## Deployment
+   ```bash
+   npm run start:dev
+   ```
 
-When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
+6. Abra o navegador e acesse para consultar a documentação com Swagger:
+   ```
+   http://localhost:3000/api
+   ```
 
-If you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
+## Tecnologias em Detalhe
 
-```bash
-$ npm install -g mau
-$ mau deploy
-```
+NestJS
+NestJS é um framework progressivo para construir aplicações Node.js eficientes, confiáveis e escaláveis. Ele utiliza conceitos de programação orientada a objetos, programação funcional e programação reativa.
 
-With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
+TypeScript
+TypeScript é um superset de JavaScript que adiciona tipagem estática ao idioma. Ele ajuda a identificar erros em tempo de desenvolvimento, melhorando a qualidade e a manutenibilidade do código.
 
-## Resources
+Prisma
+Prisma é um ORM moderno que facilita o gerenciamento do banco de dados com uma abordagem type-safe. Ele fornece uma interface intuitiva para interagir com o banco de dados e gerenciar migrações.
 
-Check out a few resources that may come in handy when working with NestJS:
+JWT (JSON Web Tokens)
+JWT é um padrão aberto (RFC 7519) que define uma maneira compacta e autocontida para transmitir informações seguras entre partes como um objeto JSON. É amplamente usado para autenticação e autorização.
 
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Deploy your application to AWS with the help of [NestJS Mau](https://mau.nestjs.com) in just a few clicks.
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
+Passport
+Passport é um middleware de autenticação para Node.js que suporta uma ampla variedade de estratégias de autenticação, incluindo JWT.
 
-## Support
+Swagger
+Swagger é uma ferramenta para documentação interativa de APIs. Ele permite que você visualize e interaja com os endpoints da sua API de forma fácil e intuitiva.
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+ESLint
+ESLint é uma ferramenta de linting para JavaScript e TypeScript. Ele analisa o código em busca de padrões problemáticos ou de estilo, ajudando a manter a consistência e a qualidade do código.
 
-## Stay in touch
+Jest
+Jest é um framework de testes JavaScript que permite escrever testes unitários e de integração de forma simples e eficiente.
 
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+Prettier
+Prettier é uma ferramenta de formatação de código que garante a consistência estilística em todo o projeto, eliminando debates sobre formatação durante revisões de código.
 
-## License
+Bcrypt
+Bcrypt é uma biblioteca para hashing de senhas, garantindo que as senhas dos usuários sejam armazenadas de forma segura no banco de dados.
 
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+## Contato
+
+Para qualquer dúvida ou sugestão, entre em contato através do cristiano_own@hotmail.com.br
+
+Desenvolvido por Cristiano Pereira da Silva

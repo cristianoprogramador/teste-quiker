@@ -1,9 +1,11 @@
 # Frontend
 
 ## Descrição
+
 Este é o frontend da aplicação de gerenciamento de posts e comentários. Desenvolvido com React e TypeScript, oferece uma interface responsiva e interativa para os usuários criarem, editarem e interagirem com posts e comentários. A aplicação utiliza várias tecnologias modernas para garantir uma experiência de desenvolvimento eficiente e um desempenho otimizado no frontend.
 
 ## Tecnologias Utilizadas
+
 React: Biblioteca JavaScript para construir interfaces de usuário.
 TypeScript: Superset do JavaScript que adiciona tipagem estática, melhorando a robustez e a manutenção do código.
 Vite: Ferramenta de build rápida e otimizada para projetos frontend.
@@ -16,28 +18,30 @@ ESLint: Ferramenta de linting para identificar e corrigir problemas no código.
 PostCSS: Ferramenta para transformar CSS com plugins.
 
 ## Como Inicializar o Projeto
+
 1. Clone o repositório:
-    ```bash
-    git clone https://github.com/cristianoprogramador/teste-quiker.git
-    ```
+
+   ```bash
+   git clone https://github.com/cristianoprogramador/teste-quiker.git
+   ```
 
 2. Instale as dependências:
-    ```bash
-    cd frontendt
-    npm install
-    ```
+
+   ```bash
+   cd frontend
+   npm install
+   ```
 
 3. Execute o projeto:
-    ```bash
-    npm run dev
-    ```
+
+   ```bash
+   npm run dev
+   ```
 
 4. Abra o navegador e acesse:
-    ```
-    http://localhost:5173
-    ```
-
-
+   ```
+   http://localhost:5173
+   ```
 
 ## Tecnologias em Detalhe
 
@@ -71,14 +75,8 @@ ESLint é uma ferramenta de linting para JavaScript e TypeScript. Ele analisa o 
 PostCSS
 PostCSS é uma ferramenta para transformar CSS com plugins. Ele é utilizado em conjunto com Tailwind CSS para processar e otimizar os estilos durante o build.
 
-Fork o repositório
-Crie uma branch (git checkout -b feature/nova-funcionalidade)
-Commit suas mudanças (git commit -m 'Adicionar nova funcionalidade')
-Push para a branch (git push origin feature/nova-funcionalidade)
-Abra um Pull Request
-
-
 ## Contato
+
 Para qualquer dúvida ou sugestão, entre em contato através do cristiano_own@hotmail.com.br
 
 Desenvolvido por Cristiano Pereira da Silva
