@@ -1,8 +1,17 @@
 # Teste Quiker - Fullstack
 
+![image](https://github.com/user-attachments/assets/4c9d5dbb-ab2c-47e1-8485-571e22ccb39e)
+![image](https://github.com/user-attachments/assets/e45c885a-2716-4baa-90e8-fa12ad65dfb8)
+
+
 ## Descrição
 
 Teste Quiker é uma aplicação completa de gerenciamento de posts e comentários, composta por um frontend desenvolvido com React e TypeScript, e um backend robusto construído com NestJS e Prisma. A aplicação permite aos usuários criar, editar, visualizar e interagir com posts e comentários de forma intuitiva e eficiente. Implementa autenticação segura usando JWT, validação de dados, documentação interativa com Swagger e testes automatizados para garantir a qualidade e confiabilidade do sistema.
+- Faltou apenas o envio de e-mail ao receber um novo comentário e a possibilidade do criador de post colocar uma imagem também, tenho outros projetos que fazem coisas similares, como o https://remind-me-frontend.vercel.app/ (que envia até SMS) e https://appwatch.cristianosilvadev.com/
+Os repositorios estão abaixo:
+* https://github.com/cristianoprogramador/app_watch_backend
+* https://github.com/cristianoprogramador/remind_me-backend
+* https://github.com/cristianoprogramador/mylife_dashboard (Esse projeto o usuario consegue modificar seu avatar, o que seria um upload de imagem)
 
 ## Tecnologias Utilizadas
 
