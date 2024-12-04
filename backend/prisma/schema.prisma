@@ -1,0 +1,68 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id       Int        @id @default(autoincrement())
+  email    String     @unique
+  name     String
+  password String
+  posts    Post[]
+  comments Comment[]
+  PostLike PostLike[]
+}
+
+model Post {
+  id          Int           @id @default(autoincrement())
+  user_id     Int
+  title       String
+  description String
+  user        User          @relation(fields: [user_id], references: [id])
+  comments    Comment[]
+  likes       Int           @default(0)
+  dislikes    Int           @default(0)
+  views       Int           @default(0)
+  createdAt   DateTime      @default(now())
+  PostLike    PostLike[]
+  PostHistory PostHistory[]
+}
+
+model Comment {
+  id          Int      @id @default(autoincrement())
+  user_id     Int
+  post_id     Int
+  description String
+  user        User     @relation(fields: [user_id], references: [id])
+  post        Post     @relation(fields: [post_id], references: [id])
+  deletedBy   String?
+  createdAt   DateTime @default(now())
+}
+
+model PostLike {
+  id            Int    @id @default(autoincrement())
+  post_id       Int
+  user_id       Int
+  reaction_type String @default("LIKE")
+  post          Post   @relation(fields: [post_id], references: [id])
+  user          User   @relation(fields: [user_id], references: [id])
+
+  @@unique([post_id, user_id])
+}
+
+model PostHistory {
+  id              Int      @id @default(autoincrement())
+  post_id         Int
+  old_description String
+  updatedAt       DateTime @default(now())
+  post            Post     @relation(fields: [post_id], references: [id])
+
+  @@index([post_id])
+}
