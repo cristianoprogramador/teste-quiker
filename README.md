@@ -116,70 +116,70 @@ Exemplo:
 
 ### Frontend
 
-React
-React é uma biblioteca JavaScript para construir interfaces de usuário. Permite criar componentes reutilizáveis que gerenciam seu próprio estado, facilitando o desenvolvimento de aplicações complexas de maneira eficiente e escalável.
+#### React
+- React é uma biblioteca JavaScript para construir interfaces de usuário. Permite criar componentes reutilizáveis que gerenciam seu próprio estado, facilitando o desenvolvimento de aplicações complexas de maneira eficiente e escalável.
 
-TypeScript
-TypeScript é um superset de JavaScript que adiciona tipagem estática ao idioma. Ajuda a identificar erros em tempo de desenvolvimento, melhorando a qualidade e a manutenibilidade do código.
+#### TypeScript
+- TypeScript é um superset de JavaScript que adiciona tipagem estática ao idioma. Ajuda a identificar erros em tempo de desenvolvimento, melhorando a qualidade e a manutenibilidade do código.
 
-Vite
-Vite é uma ferramenta de build que oferece um ambiente de desenvolvimento rápido e eficiente para projetos frontend. Utiliza módulos ES nativos para acelerar o processo de inicialização e recarregamento da aplicação durante o desenvolvimento.
+#### Vite
+- Vite é uma ferramenta de build que oferece um ambiente de desenvolvimento rápido e eficiente para projetos frontend. Utiliza módulos ES nativos para acelerar o processo de inicialização e recarregamento da aplicação durante o desenvolvimento.
 
-Tailwind CSS
-Tailwind CSS é um framework CSS utilitário que permite estilizar componentes diretamente no markup usando classes predefinidas. Facilita a criação de designs responsivos e personalizados sem a necessidade de escrever CSS personalizado.
+#### Tailwind CSS
+- Tailwind CSS é um framework CSS utilitário que permite estilizar componentes diretamente no markup usando classes predefinidas. Facilita a criação de designs responsivos e personalizados sem a necessidade de escrever CSS personalizado.
 
-React Router DOM
-React Router DOM é uma biblioteca para gerenciamento de rotas no React. Permite definir rotas declarativamente, facilitando a navegação entre diferentes páginas e componentes na aplicação.
+#### React Router DOM
+- React Router DOM é uma biblioteca para gerenciamento de rotas no React. Permite definir rotas declarativamente, facilitando a navegação entre diferentes páginas e componentes na aplicação.
 
-Axios
-Axios é uma biblioteca para realizar requisições HTTP. Utilizado para comunicar o frontend com o backend, facilitando operações como GET, POST, PUT e DELETE.
+#### Axios
+- Axios é uma biblioteca para realizar requisições HTTP. Utilizado para comunicar o frontend com o backend, facilitando operações como GET, POST, PUT e DELETE.
 
-Nookies
-Nookies é uma biblioteca para gerenciamento de cookies tanto no lado do cliente quanto no servidor em aplicações Next.js e React. Simplifica o processo de criação, leitura e remoção de cookies.
+#### Nookies
+- Nookies é uma biblioteca para gerenciamento de cookies tanto no lado do cliente quanto no servidor em aplicações Next.js e React. Simplifica o processo de criação, leitura e remoção de cookies.
 
-React Icons
-React Icons é uma biblioteca que fornece uma ampla variedade de ícones populares para serem utilizados em projetos React. Facilita a inclusão de ícones vetoriais escaláveis de maneira simples e eficiente.
+#### React Icons
+- React Icons é uma biblioteca que fornece uma ampla variedade de ícones populares para serem utilizados em projetos React. Facilita a inclusão de ícones vetoriais escaláveis de maneira simples e eficiente.
 
-ESLint
-ESLint é uma ferramenta de linting para JavaScript e TypeScript. Analisa o código em busca de padrões problemáticos ou de estilo, ajudando a manter a consistência e a qualidade do código.
+#### ESLint
+- ESLint é uma ferramenta de linting para JavaScript e TypeScript. Analisa o código em busca de padrões problemáticos ou de estilo, ajudando a manter a consistência e a qualidade do código.
 
-PostCSS
-PostCSS é uma ferramenta para transformar CSS com plugins. Utilizado em conjunto com Tailwind CSS para processar e otimizar os estilos durante o build.
+#### PostCSS
+- PostCSS é uma ferramenta para transformar CSS com plugins. Utilizado em conjunto com Tailwind CSS para processar e otimizar os estilos durante o build.
 
 ### Backend
 
-NestJS
-NestJS é um framework progressivo para construir aplicações Node.js eficientes, confiáveis e escaláveis. Utiliza conceitos de programação orientada a objetos, programação funcional e programação reativa.
+#### NestJS
+- NestJS é um framework progressivo para construir aplicações Node.js eficientes, confiáveis e escaláveis. Utiliza conceitos de programação orientada a objetos, programação funcional e programação reativa.
 
-TypeScript
-TypeScript é um superset de JavaScript que adiciona tipagem estática ao idioma. Ajuda a identificar erros em tempo de desenvolvimento, melhorando a qualidade e a manutenibilidade do código.
+#### TypeScript
+- TypeScript é um superset de JavaScript que adiciona tipagem estática ao idioma. Ajuda a identificar erros em tempo de desenvolvimento, melhorando a qualidade e a manutenibilidade do código.
 
-Prisma
-Prisma é um ORM moderno que facilita o gerenciamento do banco de dados com uma abordagem type-safe. Fornece uma interface intuitiva para interagir com o banco de dados e gerenciar migrações.
+#### Prisma
+- Prisma é um ORM moderno que facilita o gerenciamento do banco de dados com uma abordagem type-safe. Fornece uma interface intuitiva para interagir com o banco de dados e gerenciar migrações.
 
-JWT (JSON Web Tokens)
-JWT é um padrão aberto (RFC 7519) que define uma maneira compacta e autocontida para transmitir informações seguras entre partes como um objeto JSON. Amplamente usado para autenticação e autorização.
+#### JWT (JSON Web Tokens)
+- JWT é um padrão aberto (RFC 7519) que define uma maneira compacta e autocontida para transmitir informações seguras entre partes como um objeto JSON. Amplamente usado para autenticação e autorização.
 
-Passport
-Passport é um middleware de autenticação para Node.js que suporta uma ampla variedade de estratégias de autenticação, incluindo JWT.
+#### Passport
+- Passport é um middleware de autenticação para Node.js que suporta uma ampla variedade de estratégias de autenticação, incluindo JWT.
 
-Swagger
-Swagger é uma ferramenta para documentação interativa de APIs. Permite visualizar e interagir com os endpoints da API de forma fácil e intuitiva.
+#### Swagger
+- Swagger é uma ferramenta para documentação interativa de APIs. Permite visualizar e interagir com os endpoints da API de forma fácil e intuitiva.
 
-ESLint
-ESLint é uma ferramenta de linting para JavaScript e TypeScript. Analisa o código em busca de padrões problemáticos ou de estilo, ajudando a manter a consistência e a qualidade do código.
+#### ESLint
+- ESLint é uma ferramenta de linting para JavaScript e TypeScript. Analisa o código em busca de padrões problemáticos ou de estilo, ajudando a manter a consistência e a qualidade do código.
 
-Jest
-Jest é um framework de testes JavaScript que permite escrever testes unitários e de integração de forma simples e eficiente.
+#### Jest
+- Jest é um framework de testes JavaScript que permite escrever testes unitários e de integração de forma simples e eficiente.
 
-Prettier
-Prettier é uma ferramenta de formatação de código que garante a consistência estilística em todo o projeto, eliminando debates sobre formatação durante revisões de código.
+#### Prettier
+- Prettier é uma ferramenta de formatação de código que garante a consistência estilística em todo o projeto, eliminando debates sobre formatação durante revisões de código.
 
-PostCSS
-PostCSS é uma ferramenta para transformar CSS com plugins.
+#### PostCSS
+- PostCSS é uma ferramenta para transformar CSS com plugins.
 
-Bcrypt
-Bcrypt é uma biblioteca para hashing de senhas, garantindo que as senhas dos usuários sejam armazenadas de forma segura no banco de dados.
+#### Bcrypt
+- Bcrypt é uma biblioteca para hashing de senhas, garantindo que as senhas dos usuários sejam armazenadas de forma segura no banco de dados.
 
 ## Contato
 
